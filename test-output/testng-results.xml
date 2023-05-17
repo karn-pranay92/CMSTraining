@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SampleSuite" duration-ms="50061" started-at="2023-05-11T13:14:44 IST" finished-at="2023-05-11T13:15:34 IST">
+    <groups>
+    </groups>
+    <test name="ModuleOneTest" duration-ms="50061" started-at="2023-05-11T13:14:44 IST" finished-at="2023-05-11T13:15:34 IST">
+      <class name="Traning.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Traning.LoginTest@cb0ed20]" name="setup" is-config="true" duration-ms="17454" started-at="2023-05-11T13:14:44 IST" finished-at="2023-05-11T13:15:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validLogin(java.lang.String,java.lang.String)[pri:0, instance:Traning.LoginTest@cb0ed20]" name="validLogin" duration-ms="13510" started-at="2023-05-11T13:15:01 IST" data-provider="loginData" finished-at="2023-05-11T13:15:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[welcome1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Traning.LoginTest@cb0ed20]" name="teardown" is-config="true" duration-ms="414" started-at="2023-05-11T13:15:15 IST" finished-at="2023-05-11T13:15:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Traning.LoginTest@cb0ed20]" name="setup" is-config="true" duration-ms="3740" started-at="2023-05-11T13:15:15 IST" finished-at="2023-05-11T13:15:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validLogin(java.lang.String,java.lang.String)[pri:0, instance:Traning.LoginTest@cb0ed20]" name="validLogin" duration-ms="4912" started-at="2023-05-11T13:15:19 IST" data-provider="loginData" finished-at="2023-05-11T13:15:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[welcome12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Traning.LoginTest@cb0ed20]" name="teardown" is-config="true" duration-ms="330" started-at="2023-05-11T13:15:24 IST" finished-at="2023-05-11T13:15:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Traning.LoginTest@cb0ed20]" name="setup" is-config="true" duration-ms="3258" started-at="2023-05-11T13:15:24 IST" finished-at="2023-05-11T13:15:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="validLogin(java.lang.String,java.lang.String)[pri:0, instance:Traning.LoginTest@cb0ed20]" name="validLogin" duration-ms="6001" started-at="2023-05-11T13:15:28 IST" data-provider="loginData" finished-at="2023-05-11T13:15:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tomsmith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SuperSecretPassword!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Traning.LoginTest@cb0ed20]" name="teardown" is-config="true" duration-ms="310" started-at="2023-05-11T13:15:34 IST" finished-at="2023-05-11T13:15:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Traning.LoginTest -->
+    </test> <!-- ModuleOneTest -->
+  </suite> <!-- SampleSuite -->
+</testng-results>
